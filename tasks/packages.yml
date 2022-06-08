@@ -1,0 +1,6 @@
+tasks:
+- name: Install packages
+  pacman:
+    name:
+      - htop
+      - btop
