@@ -502,7 +502,7 @@
       - virt-manager
       - virt-viewer
       - virtualbox
-      - virtualbox-ext-oracle
+      # - virtualbox-ext-oracle
       - virtualbox-guest-iso
       - vivaldi
       - vivaldi-ffmpeg-codecs
