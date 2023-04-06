@@ -1,7 +1,7 @@
 - name: Install packages
   pacman:
     name:
-      # - code
+      - code
       - acct
       - ack
       - acpi
@@ -586,9 +586,3 @@
       - zplug
       - zsh
       - zsync
-
-- name: Deinstall packages
-  pacman:
-    name:
-      - code
-    state: absent
