@@ -2,7 +2,6 @@
   pacman:
     name:
       - code
-      - acct
       - ack
       - acpi
       - acpica
