@@ -1,5 +1,5 @@
 - name: Install packages
-  pacman:
+  community.general.pacman:
     name:
       - elixir
       - gopls
