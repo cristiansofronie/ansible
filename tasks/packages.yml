@@ -390,7 +390,6 @@
       - rogue
       - rrdtool
       - rsync
-      - rust-analyzer
       - rustup
       - rygel
       - s-nail
