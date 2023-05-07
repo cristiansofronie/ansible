@@ -1,6 +1,7 @@
 - name: Install packages
   community.general.pacman:
     name:
+      - shim
       - pyright
       - bc
       - php-cgi
