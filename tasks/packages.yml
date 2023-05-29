@@ -1,6 +1,7 @@
 - name: Install packages
   community.general.pacman:
     name:
+      - nvme-cli
       - repo
       - python-websockets
       - bashtop
