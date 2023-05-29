@@ -8,5 +8,9 @@
         update_cache: yes
       changed_when: False
 
+    - name: update whole system
+      community.general.pacman:
+        upgrade: yes
+
   tasks:
     - include: tasks/packages.yml
