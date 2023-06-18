@@ -1,6 +1,7 @@
 - name: Install packages
   community.general.pacman:
     name:
+      - virtualbox-guest-utils-nox
       - i2c-tools
       - doxygen
       - evtest
