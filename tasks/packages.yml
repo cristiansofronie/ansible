@@ -1,6 +1,7 @@
 - name: Install packages
   community.general.pacman:
     name:
+      - i2c-tools
       - doxygen
       - evtest
       - fbida
