@@ -1,6 +1,7 @@
 - name: Install packages
   community.general.pacman:
     name:
+      - pappl
       - unrar
       - chrpath
       - indent
