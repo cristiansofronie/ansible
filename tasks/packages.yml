@@ -1,6 +1,9 @@
 - name: Install packages
   community.general.pacman:
     name:
+      - fbgrab
+      - android-tools
+      - python-fonttools
       - minetest
       - espeak-ng
       - uncrustify
