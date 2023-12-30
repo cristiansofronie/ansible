@@ -125,7 +125,6 @@
       - dotnet-sdk
       - dovecot
       - downgrade
-      - dstat
       - duf
       - dust
       - ed
