@@ -1,6 +1,7 @@
 - name: Install packages
   community.general.pacman:
     name:
+      - devtools
       - qtcreator
       - zps
       - kcalc
